@@ -2,7 +2,7 @@
 
 Labend (Lab Friend) is a comprehensive, interactive R Shiny application designed to automate and simplify daily laboratory calculations and data analysis workflows. It serves as an all-in-one digital assistant for molecular biology and biochemistry labs.
 
-## ✨ Key Features & Modules
+## Key Features & Modules
 
 ### 1. Molarity Calculator
 Quickly perform routine lab calculations for preparing solutions.
@@ -18,7 +18,7 @@ Analyze protein sequences to obtain physical and chemical parameters.
 ### 3. Growth Curve Analysis
 Plot and analyze bacterial or yeast growth curves over time to determine growth kinetics and doubling times.
 
-### 4. ⚖Protein Quantification
+### 4. Protein Quantification
 Automated analysis for BCA or Bradford assays.
 - Generate standard curves with $R^2$ evaluation.
 - Calculate unknown sample concentrations automatically.
