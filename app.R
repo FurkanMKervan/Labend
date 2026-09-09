@@ -1123,8 +1123,8 @@ server <- function(input, output, session) {
       # Multiply by -1 as requested by user to make the peaks point up (if checked)
       deriv_final <- if (input$dsf_invert_deriv) -deriv_raw else deriv_raw
       
-      # Find peak (Tm)
-      tm_idx <- which.max(deriv_final)
+      # Find peak (Tm) using the absolute maximum to ensure it works for both valleys and peaks
+      tm_idx <- which.max(abs(deriv_final))
       tm_val <- temp[tm_idx]
       
       # Build data frames
