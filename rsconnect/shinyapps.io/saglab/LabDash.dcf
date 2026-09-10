@@ -1,0 +1,12 @@
+name: LabDash
+title: LabDash
+username: saglab
+account: saglab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17780005
+bundleId: 12534811
+url: https://saglab.shinyapps.io/LabDash/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
